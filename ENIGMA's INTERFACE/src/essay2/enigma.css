@@ -1,0 +1,65 @@
+.root{
+-fx-background-image:url('download.jpg');
+-fx-background-size:100%,100%;
+
+ 
+}
+
+
+  
+.pane{
+-fx-background-image:url('metallic-texture.jpg');
+-fx-background-size:100%,100%
+}
+
+.jfx-combo-box.label {
+	-fx-background-color:  WHITE;
+	-fx-text-fill: RED;
+
+}
+.ref{
+    -fx-font-color:white;
+    
+}
+.button{
+
+ -fx-pref-height: 32px; /*hauteur*/
+  -fx-pref-width: 32px; /*large*/ 
+  -fx-font-size: 12px; /*taille*/
+  -fx-font-weight: bold; /*gras*/
+  -fx-border-radius: 50%;
+  -fx-border-color: #D0D0D0;
+  -fx-background-color: #4CAF50;
+  -fx-background-radius:50%;
+  -fx-font-color: white;
+  -fx-text-align: center;
+-fx-background-color: linear-gradient(to bottom right, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+
+}
+.button:hover {
+    -fx-border-color: orange;
+    
+}
+.button:pressed {-fx-background-color:#383838;
+-fx-border-color:white;
+
+
+}
+.label{
+-fx-pref-height: 30px;
+  -fx-pref-width: 30px;  
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+  -fx-border-radius: 50%;
+  
+  -fx-background-color: black;
+  -fx-background-radius:50%;
+-fx-background-color: linear-gradient(to bottom right, #000000 0%,#0a0a0a 11%,#0a0a0a 21%,#4e4e4e 33%,#383838 37%,#383838 37%,#1b1b1b 43%,#1b1b1b 43%,#000000 100%);
+
+}
+.text{
+    -fx-background-image: url('diaryBackgroundCreated2.png')
+}
+
+
+

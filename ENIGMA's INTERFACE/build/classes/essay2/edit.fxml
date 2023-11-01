@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="editStage" prefHeight="342.0" prefWidth="640.0" styleClass="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="essay2.EditController">
+    <stylesheets>
+        <URL value="@enigma.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="308.0" prefWidth="556.0" styleClass="pane" stylesheets="@enigma.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Initial positions : " wrappingWidth="154.13671875">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="32.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reflector : ">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="32.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order of Rotors :" wrappingWidth="154.13671875">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="ref" layoutX="186.0" layoutY="52.0" prefHeight="25.0" prefWidth="104.0" promptText="UKW-B ?" />
+            <ComboBox fx:id="R3" layoutX="484.0" layoutY="186.0" prefHeight="25.0" prefWidth="104.0" promptText="Right" />
+            <ComboBox fx:id="pr1" layoutX="484.0" layoutY="116.0" prefHeight="25.0" prefWidth="104.0" promptText="Right" />
+            <ComboBox fx:id="R2" layoutX="336.0" layoutY="186.0" prefHeight="25.0" prefWidth="104.0" promptText="Center" />
+            <ComboBox fx:id="pr2" layoutX="336.0" layoutY="116.0" prefHeight="25.0" prefWidth="104.0" promptText="Center" />
+            <ComboBox fx:id="R1" layoutX="187.0" layoutY="186.0" prefHeight="25.0" prefWidth="104.0" promptText="Left" />
+            <ComboBox fx:id="pr3" layoutX="187.0" layoutY="116.0" prefHeight="25.0" prefWidth="104.0" promptText="Left" />
+            <Button layoutX="109.0" layoutY="276.0" mnemonicParsing="false" onAction="#test" prefHeight="36.0" prefWidth="111.0" style="-fx-pref-width: 150; -fx-background-radius: 50;" text="Apply and Reset" textFill="WHITE" />
+            <TextArea fx:id="t1" disable="true" editable="false" layoutX="388.0" layoutY="29.0" opacity="0.0" prefHeight="48.0" prefWidth="200.0" />
+            <Button layoutX="386.0" layoutY="276.0" mnemonicParsing="false" onAction="#close" style="-fx-background-radius: 50; -fx-pref-width: 150;" text="Cancel" textFill="#f2efef" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="135.0" prefWidth="641.0" stylesheets="@enigma.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="essay2.Scene3Controller">
+   <children>
+      <Pane layoutX="93.0" layoutY="50.0" prefHeight="95.0" prefWidth="200.0" styleClass="pane" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text fill="#eeeeee" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plug Field :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <TextField fx:id="plug" alignment="CENTER" layoutX="129.0" layoutY="22.0" prefHeight="25.0" prefWidth="397.0" promptText="AB CD EF GH IJ KL MN OP QR ST UV WX YZ" />
+            <Button fx:id="pok" layoutX="271.0" layoutY="69.0" mnemonicParsing="false" onAction="#plug" style="-fx-pref-width: 100; -fx-background-radius: 50;" text="Apply" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
